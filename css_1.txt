@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>九宫格</title>
+        <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
+        <style type="text/css">
+
+        	 a, body,li,ul{
+                margin: 0;
+                border: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+           html,body{
+           	background-color: grey;
+           }
+
+           ul{
+           	text-decoration: none;
+           	list-style-type: none;
+           }
+
+           .video_list li {
+           	float: left;
+                width: 30%;
+                border: 1px solid #ccc;
+ 				padding-top: 30%;
+                margin-left: 2.5%;
+                margin-top: 2.5%;
+                position: relative;
+                background-color: green;
+
+           }
+
+           .video_list li div {
+           	 	position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: orange;
+           }
+        </style>
+    </head>
+    <body>
+        <ul class="video_list">
+            <li><div></div></li>                    
+			<li><div></div></li>  
+            <li><div></div></li>                    
+			<li><div></div></li> 
+			<li><div></div></li>  
+            <li><div></div></li>                    
+			<li><div></div></li> 
+			<li><div></div></li>  
+            <li><div></div></li>                    
+        </ul>    
+    </body>
+</html>
